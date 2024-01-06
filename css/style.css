@@ -1,0 +1,132 @@
+/* Header */
+.style-nav{
+    background-color: #073B4C;
+}
+
+.style-nav .navbar-nav a.nav-link{
+    color: #fff;
+    font-weight: 600;
+}
+
+.style-nav .navbar-nav .nav-link.active, .style-nav .navbar-nav .nav-link:hover{
+    color: #FFD166;
+}
+
+/* Hero */
+*{
+    font-family: Verdana;
+}
+
+/* container */
+.card{
+    cursor: pointer;
+    box-shadow: 6rgb(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card-row{
+    position: relative;
+    top: 110px;
+    height: 80vh;
+}
+.style-biru-container{
+    background-color: #001D3D;
+    color: #fff;
+    top: -142px;
+    height: 80vh;
+}
+.back-container{
+    position: relative;
+    top: 110px;
+}
+.btn btn-warning{
+    background-color: #fff !important;
+    color: black !important;
+    padding: 10px !important;
+    width: 100px !important;
+}
+.form-control{
+    box-shadow: 6rgb(0, 0, 0, 0.1) 0px 4px 12px !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.text-contact{
+    font-size: 40px;
+}
+.style-biru-container p span{
+    color: #FFD166;
+}
+
+@media only screen and (max-width:600px){
+    .style-biru-container{
+        height: 150vh !important;
+    }
+}
+
+/* easy fitur */
+.style-biru{
+    background-color: #073B4C;
+    color: #fff;
+}
+
+.style-biru h2 span{
+    color: #FFD166;
+} 
+
+.style-biru h3 span{
+    color: #FFD166;
+} 
+
+.style-grey h2 span{
+    color: #FFD166;
+} 
+.button.btn-warning{
+    background-color: #FFD166;
+}
+
+h2.style-judul::after{
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 10px solid #FFD166;
+    width: 100px;
+    border-radius: 25px;
+    content: "";
+}
+
+.style-grey{
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+.style-footer-menu h2{
+    color: #FFD166;
+    margin-bottom: 15px;
+}
+.style-footer-menu h3{
+    color: #073B4C;
+    margin-bottom: 15px;
+}
+
+.style-footer-menu a{
+    color: #073B4C;
+    text-decoration: none;
+}
+
+.style-footer-menu a:hover{
+    color: #FFD166;
+}
+
+.style-footer-menu ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.style-footer-menu ul li{
+    margin-bottom: 10px;
+}
+.style-footer-copyright{
+    background-color: #001D3D;
+    color: #fff;
+}
+
+
